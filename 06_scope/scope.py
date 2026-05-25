@@ -73,8 +73,8 @@ print(i) # 4
 # 6.b. How do comprehensions differ from the for loop above? Uncomment lines 76 and 77. What will be output by the print statements?
 numbers = [j for j in range(5)]
 
-print(numbers, "<< NUMBERS")
-print(j)
+print(numbers, "<< NUMBERS") # [0, 1, 2, 3, 4]
+print(j) # undefined
 
 # NICE JOB! You are done with this exercise. Great work! :)
 # To see what your final output should look like, check the expected_scope_outputs.txt file.
